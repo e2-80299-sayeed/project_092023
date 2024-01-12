@@ -1,0 +1,16 @@
+
+
+
+git clone https://github.com/e2-80299-sayeed/project_DESD_092023.git
+username: e2-80299-sayeed
+token: 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
+
+
+
+
+command for push:
+
+> git add .
+> git commit -m "today's work"
+
+>git push
