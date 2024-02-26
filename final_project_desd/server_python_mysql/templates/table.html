@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Temperatures</title>
+    </head>
+    <body>
+        <h1>Smart Parking Management</h1>
+        <table>
+            <tr>
+                <th>Slot_no</th>
+                <th>Slot_status</th>
+                <th>time_Stamp</th>
+            </tr>
+            {% for slot_no,slot_status, time in message %}
+                <tr>
+                    <td>{{slot_no}}</td>
+                    <td>{{slot_status}}</td>
+                    <td>{{time}}</td>
+                </tr>
+            {% endfor %}
+        </table>
+    </body>
+</html>
